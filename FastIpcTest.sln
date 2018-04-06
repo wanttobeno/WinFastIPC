@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FastIpcTest", "FastIpcTest\FastIpcTest.vcxproj", "{B4985F2D-CF8E-44AF-BB18-15A30616DD7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98DDCF3A-F102-456A-969C-38BF6D8BC73C} = {98DDCF3A-F102-456A-969C-38BF6D8BC73C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClientOne", "ClientOne\ClientOne.vcxproj", "{3CA58389-DAE3-4E8B-BBF8-3260BE36A249}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClientTwo", "ClientTwo\ClientTwo.vcxproj", "{70900974-02AF-49F3-B039-6C67851DF1BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerTest", "ServerTest\ServerTest.vcxproj", "{5E7E3195-1082-46E1-B3D9-50B9F558E3B3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FastIpcLib", "FastIpcLib\FastIpcLib.vcxproj", "{98DDCF3A-F102-456A-969C-38BF6D8BC73C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D8B4AB54-607E-448D-881B-EF6A1C8E8A0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4985F2D-CF8E-44AF-BB18-15A30616DD7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4985F2D-CF8E-44AF-BB18-15A30616DD7B}.Debug|Win32.Build.0 = Debug|Win32
+		{B4985F2D-CF8E-44AF-BB18-15A30616DD7B}.Release|Win32.ActiveCfg = Release|Win32
+		{B4985F2D-CF8E-44AF-BB18-15A30616DD7B}.Release|Win32.Build.0 = Release|Win32
+		{3CA58389-DAE3-4E8B-BBF8-3260BE36A249}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CA58389-DAE3-4E8B-BBF8-3260BE36A249}.Debug|Win32.Build.0 = Debug|Win32
+		{3CA58389-DAE3-4E8B-BBF8-3260BE36A249}.Release|Win32.ActiveCfg = Release|Win32
+		{3CA58389-DAE3-4E8B-BBF8-3260BE36A249}.Release|Win32.Build.0 = Release|Win32
+		{70900974-02AF-49F3-B039-6C67851DF1BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70900974-02AF-49F3-B039-6C67851DF1BA}.Debug|Win32.Build.0 = Debug|Win32
+		{70900974-02AF-49F3-B039-6C67851DF1BA}.Release|Win32.ActiveCfg = Release|Win32
+		{70900974-02AF-49F3-B039-6C67851DF1BA}.Release|Win32.Build.0 = Release|Win32
+		{5E7E3195-1082-46E1-B3D9-50B9F558E3B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E7E3195-1082-46E1-B3D9-50B9F558E3B3}.Debug|Win32.Build.0 = Debug|Win32
+		{5E7E3195-1082-46E1-B3D9-50B9F558E3B3}.Release|Win32.ActiveCfg = Release|Win32
+		{5E7E3195-1082-46E1-B3D9-50B9F558E3B3}.Release|Win32.Build.0 = Release|Win32
+		{98DDCF3A-F102-456A-969C-38BF6D8BC73C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98DDCF3A-F102-456A-969C-38BF6D8BC73C}.Debug|Win32.Build.0 = Debug|Win32
+		{98DDCF3A-F102-456A-969C-38BF6D8BC73C}.Release|Win32.ActiveCfg = Release|Win32
+		{98DDCF3A-F102-456A-969C-38BF6D8BC73C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CA58389-DAE3-4E8B-BBF8-3260BE36A249} = {D8B4AB54-607E-448D-881B-EF6A1C8E8A0D}
+		{70900974-02AF-49F3-B039-6C67851DF1BA} = {D8B4AB54-607E-448D-881B-EF6A1C8E8A0D}
+		{5E7E3195-1082-46E1-B3D9-50B9F558E3B3} = {D8B4AB54-607E-448D-881B-EF6A1C8E8A0D}
+	EndGlobalSection
+EndGlobal

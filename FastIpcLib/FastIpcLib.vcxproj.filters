@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\fast_ipc">
+      <UniqueIdentifier>{db5f4933-0b0a-4842-b2fe-63be8b35a11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\fast_ipc">
+      <UniqueIdentifier>{86d24412-c8fa-4664-a071-84533953d4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\memory">
+      <UniqueIdentifier>{afee81ef-8679-4498-b532-8964340f65ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\memory">
+      <UniqueIdentifier>{6cda0acf-d1a2-456d-8231-86638d277cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\security">
+      <UniqueIdentifier>{bd5ac2be-468f-4584-a901-18b31a9b5b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\security">
+      <UniqueIdentifier>{6e8c83a9-d953-4437-820c-8cfd69f38172}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fast_ipc\ipc_named_pipe.h">
+      <Filter>头文件\fast_ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_ipc\ipc_server.h">
+      <Filter>头文件\fast_ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_ipc\ipc_thread.h">
+      <Filter>头文件\fast_ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_ipc\ipc_types.h">
+      <Filter>头文件\fast_ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_ipc\ipc.h">
+      <Filter>头文件\fast_ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_ipc\ipc_client.h">
+      <Filter>头文件\fast_ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\heap.h">
+      <Filter>头文件\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="security\security_utils.h">
+      <Filter>头文件\security</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fast_ipc\ipc.cpp">
+      <Filter>源文件\fast_ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="fast_ipc\ipc_client.cpp">
+      <Filter>源文件\fast_ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="fast_ipc\ipc_named_pipe.cpp">
+      <Filter>源文件\fast_ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="fast_ipc\ipc_server.cpp">
+      <Filter>源文件\fast_ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="fast_ipc\ipc_thread.cpp">
+      <Filter>源文件\fast_ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\heap.cpp">
+      <Filter>源文件\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="security\security_utils.cpp">
+      <Filter>源文件\security</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
